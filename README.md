@@ -1,44 +1,38 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Reciclash
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 41<br>
+**Conteúdo da Disciplina**: PD<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 16/0124581  |  Hugo Aragão de Oliveira|
+| 20/2015984  |  Breno Henrique de Souza |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+O objetivo desse projeto é utilizar na prática o algoritmo Knapsack para
+calcular a melhor combinação de itens para serem levados na caminhonete.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+Tela inicial:
+<img src="img/inicio.png" alt="">
+Tela com tratamente de erros:
+<img src="img/funcionando.png" alt="">
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: Javascript<br>
+**Framework**: Não foi utilizado<br>
+
+Para rodar o projeto é necessário ter acesso a internet para clonar o repositório,
+e ter um navegador instalado no computador(de preferência Chrome ou Edge), para rodar
+o projeto localmente.
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Clone o repositório e execute o server utilizando a extensão Live Server no seu VsCode.
+A porta local é informada pela própria extensão quando executado.
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+Também é possível executar diretamente em seu navegador (caso tenha o projeto clonado em
+sua máquina), apenas copiando o path do arquivo `index.html` e colando no navegador.
 
 
 
