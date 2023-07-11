@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: beige;
+}
+
+h1, p, ul {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 3px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.resultado {
+  display: flex;
+  justify-content: center;
+  
+}

@@ -45,8 +45,13 @@ const items = [
 ];
 
 
-const capacity = 32;
+document.getElementById('start').addEventListener('click', function() {
+  const capacity = document.getElementById("capacity").value
 
-const result = knapsackDinamico(items, capacity);
-console.log("Valor máximo que pode ser colocado na mochila:", result.maxValue);
-console.log("Itens selecionados:", result.selectedItems);
+  const result = knapsackDinamico(items, capacity);
+  let resultadoDiv = document.getElementById("resultado");
+
+  resultadoDiv.innerHTML = `<p>Valor máximo colocado na mochila: ${result.maxValue}</p>
+  <br><br>
+                  <p>Itens que foram selecionados: ${result.selectedItems}</p>`
+})
