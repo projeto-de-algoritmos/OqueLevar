@@ -34,6 +34,8 @@ A porta local é informada pela própria extensão quando executado.
 Também é possível executar diretamente em seu navegador (caso tenha o projeto clonado em
 sua máquina), apenas copiando o path do arquivo `index.html` e colando no navegador.
 
+## Aprensentação
 
+![Apresentação](pdKnapsack.mp4)
 
 
