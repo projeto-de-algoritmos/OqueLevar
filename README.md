@@ -38,4 +38,8 @@ sua máquina), apenas copiando o path do arquivo `index.html` e colando no naveg
 
 ![Apresentação](pdKnapsack.mp4)
 
+<video width="320" height="240" controls>
+  <source src="pdKnapsack.mp4" type="video/mp4">
+</video>
+
 
